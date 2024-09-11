@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventana a la ciencia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/b78f676cb5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Imagenes/LogoCirculo2.png">
+</head>
+<body>
+
+     <!-- Header -->
+     <section class="header">
+
+        <!-- nav -->
+        <nav class="nav">
+            <a href="index.html"><img src="Imagenes/logoventana.png" alt=""></a>
+            <div class="nav__links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#about">SOBRE NOSOTROS</a></li>
+                    <li>SERVICIOS
+                        <div class="nav__sub-menu">
+                            <ul>
+                                <li><a href="#servicios">ASESORIAS EN CIENCIAS SOCIALES</a></li>
+                                <li><a href="#OtrasAsesorias">OTRAS ASESORIAS</a></li>
+                                <li><a href="#ComercializacionActividades">COMERCIALIZACION DE ACTIVIDADES FORMATIVAS</a></li>
+                            
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#contact">CONTACTENOS</a></li>
+                    <li>RECURSOS
+                        <div class="nav__sub-menu">
+                            <ul>
+                                <li><a href="recursos.html">PUBLICACIONES</a></li>
+                                <li><a href="recursos.html#normativa">NORMATIVA</a></li>
+                                <li><a href="recursos.html#herramientas">HERRAMIENTAS</a></li>
+                                <li><a href="recursos.html#capacitaciones">CAPACITACIONES</a></li>
+                            </ul>
+                        </div>
+                    
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="header__text">
+            <h1>Ventana a la ciencia</h1>
+            <p>La ciencia es nuestro horizonte infinito. Esta ventana se abre para promover la
+                investigación en ciencias sociales.</p>
+            <a href="#about" class="hero-btn">Conoce Más</a>
+        </div>
+
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section class="banner" id="about">
+        <h1>Sobre Nosotros</h1>
+    </section>
+
+    <section class="about">
+
+        <div class="row">
+            <div class="about__col">
+                <h1>Espacio para la formación y capacitación de investigadores en ciencias
+                    sociales, con especial énfasis en las disciplinas relacionadas con la
+                    administración, la economía y la contabilidad.</h1>
+                <p>
+                    Somos expertos académicos investigadores en ciencias sociales, nuestros
+                    servicios están dirigidos a la formación y capacitación de investigadores en
+                    disciplinas administrativas, económicas y contables. Diseñamos y realizamos
+                    cursos de calidad para la formación de investigadores al nivel de pregrado y
+                    postgrados (especializaciones, maestrías y doctorados); asesoramos en tesis,
+                    dictamos cursos para la escritura y publicación de artículos científicos, libros y
+                    capítulos de libros, revisión profesional de artículos, tesis, efectuamos análisis
+                    estadísticos de datos, comercializamos todo tipo de actividades destinadas a la
+                    formación, educación y capacitación de profesionales y estudiantes de pregrado
+                    y postgrados al nivel de especialización, maestría y doctorado; de forma
+                    presencial, semipresencial y virtual.
+                </p>
+                <a href="#contact" class="hero-btn green-btn">Empieza Aquí</a>
+            </div>
+            <div class="about__col">
+                <img src="Imagenes/Nosotrosimagen.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+     <!-- Valores -->
+     <section class="propositos">
+        <h1>Nuestra razón de ser</h1>
+
+        <div class="row">
+            <div class="propositos__col">
+                <h3>Misión</h3>
+                <p>
+                    Formar y capacitar a estudiantes, egresados y profesionales de pregrado y
+postgrado mediante la prestación de servicios personalizados, oportunos y de alta
+calidad para realizar investigación en ciencias sociales. <br>
+Mediante los programas de formación y capacitación se fomenta la preparación de
+investigadores con competencias para aportar soluciones a la problemática local y
+global, a partir del desarrollo de procesos de investigación estructurados
+adecuadamente en los aspectos epistemológicos, metodológicos, teóricos y
+empíricos, que aporten respuesta a las necesidades de la sociedad.
+                </p>
+            </div>
+            <div class="propositos__col">
+                <h3>Visión</h3>
+                <p>
+                    Ser una firma líder en todo el territorio latinoamericano reconocida por la
+excelencia, calidad en la preparación y capacitación de investigadores en las
+ciencias sociales. Todo ello fundamentado en el plan estratégico de la firma, en las
+políticas de control de calidad, la formación práctica y el desarrollo profesional
+continuo de nuestro personal, así como el compromiso ético de nuestros procesos.
+                </p>
+            </div>
+            <div class="propositos__col valores__col">
+                <h3>Valores</h3>
+                <p>
+                    Respeto <br><br>
+                    Honestidad<br><br>
+                    Diligencia<br><br>
+                    Compromiso<br><br>
+                    Integridad<br><br>
+                    Responsabilidad<br><br>
+                    Justicia<br><br>
+                    Innovacion
+                </p>
+            </div>
+
+        </div>
+    
+    </section>
+    
+    <!-- Servicios -->
+    <section class="banner banner_servicios">
+        <h1 id="servicios">Servicios</h1>
+    </section>
+
+    <section class="servicios">
+        <div class="servicios__div">
+            <img src="Imagenes/Asesorias_sociales2.jpg" alt="" class="servicios__image">
+            <div class="servicios__content">
+                <h3><span>1</span>Asesorías y consultorías en ciencias sociales</h3>
+                <p>Asesorías y consultorías en el campo de la investigación en ciencias sociales a través del diseño de cursos para la formación de investigadores a nivel de pregrado y postgrados.</p>
+                
+                <a href="#contact" class="hero-btn green-btn">Trabaja con Nosotros</a>
+
+            </div>
+        </div>
+
+    <div id="OtrasAsesorias" class="servicios__div">
+        
+        <div class="servicios__content">
+            <h3><span>2</span>Asesorias en:</h3>
+            <ul>
+                <li>Tesis de postgrados en ciencias administrativas, económicas y
+                    contables.</li>
+                <li>Cursos para la escritura y publicación de artículos científicos,
+                    ensayos, libros y capítulos de libros.</li>
+                <li>Revisión profesional de proyectos de investigación, artículos,
+                    ensayos y, tesis de pregrado y postgrado</li>
+                <li>Análisis estadístico de datos</li>
+                <li>Análisis cualitativo de datos</li>
+                <li>Análisis de proyectos económicos</li>
+                <li>Emprendimientos</li>
+            </ul>
+            <a href="#contact" class="hero-btn green-btn">Trabaja con Nosotros</a>
+        </div>
+        <img src="Imagenes/OtrasAsesorias.jpg" alt="" class="servicios__image">
+    </div>
+
+    <div id="ComercializacionActividades" class="servicios__div">
+        <img src="Imagenes/comercializacion.jpg" alt="" class="servicios__image">
+        <div class="servicios__content">
+            <h3><span>3</span>Comercializacion de actividades formativas</h3>
+            <p>Comercialización de todo tipo de actividades destinadas a la formación,
+                educación y capacitación de profesionales, así como de estudiantes de
+                pregrado y postgrados al nivel de especialización, maestría y de forma
+                presencial, semipresencial y virtual.</p>
+            <a href="#contact" class="hero-btn green-btn">Trabaja con Nosotros</a>
+        </div>
+            
+    </div>
+    
+
+    <!-- Blog -->
+    <section class="banner banner_blog" id="blog">
+        <h1>Blog</h1>
+    </section>
+
+
+    <!-- Contactenos -->
+
+    <section id="contact" class="banner banner_contact">
+        <a href="#contact" class="hero-btn">Contactanos</a>
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact__col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Valledupar, César</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+57 301 5182628</h5>
+                        <h5>+57 305 3799576</h5>
+                        <h5>+605 5826265</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>ventanaalaciencia@gmail.com</h5>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="contact__col">
+                <form action="form-handler.php" method="post">
+                    <input name="name" type="text" placeholder="Nombre / Empresa" required>
+                    <input name="email" type="email" placeholder="Correo Electrónico" required>
+                    <input name="subject" type= "text" placeholder="Número de contacto">
+                    <select name="select" id="select">
+                        <option value="Seleccione el servicio">Seleccione el servicio</option>
+                        <option value="Asesorías y consultorías en ciencias sociales">Asesorías y consultorías en ciencias sociales</option>
+                        <option value="Otras asesorias">Otras asesorias</option>
+                        <option value="Tecnologias de la Información y Comunicación">Comercialización de actividades formativas</option>
+                    </select> 
+                    <textarea name="message" placeholder="Mensaje" rows="8" required></textarea>
+                    <button type="submit" class="hero-btn green-btn">Enviar</button>
+                </form>
+
+            </div>
+
+            
+
+        </div>
+        
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <p>© 2024 Ventana a la ciencia S.A.S</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Hecho por Ray Guao Bolaño</p>
+    
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>

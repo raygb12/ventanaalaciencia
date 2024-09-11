@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo Contable</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/b78f676cb5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="Imagenes/LogoCirculo2.png">
+</head>
+<body>
+
+    <!-- Header -->
+    <section class="recursos__header">
+
+        <!-- nav -->
+        <nav class="nav">
+            <a href="index.html"><img src="Imagenes/logoventana.png" alt=""></a>
+            <div class="nav__links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="index.html#about">SOBRE NOSOTROS</a></li>
+                    <li>SERVICIOS
+                        <div class="nav__sub-menu">
+                            <ul>
+                                <li><a href="index.html#servicios">ASESORIAS EN CIENCIAS SOCIALES</a></li>
+                                <li><a href="index.html#OtrasAsesorias">OTRAS ASESORIAS</a></li>
+                                <li><a href="index.html#ComercializacionActividades">COMERCIALIZACION DE ACTIVIDADES FORMATIVAS</a></li>
+                            
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="index.html#blog">BLOG</a></li>
+                    <li><a href="index.html#contact">CONTACTENOS</a></li>
+                    <li>RECURSOS
+                        <div class="nav__sub-menu">
+                            <ul>
+                                <li><a href="recursos.html">PUBLICACIONES</a></li>
+                                <li><a href="recursos.html#normativa">NORMATIVA</a></li>
+                                <li><a href="recursos.html#herramientas">HERRAMIENTAS</a></li>
+                                <li><a href="recursos.html#capacitaciones">CAPACITACIONES</a></li>
+                            </ul>
+                        </div>
+                    
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Recursos</h1>
+
+    </section>
+
+    <!-- Publicaciones -->
+    <section class="banner banner_publicaciones" id="publicaciones">
+        <h1 id="servicios">Publicaciones</h1>
+    </section>
+
+    <!-- Normativa -->
+    <section class="banner banner_normativa" id="normativa">
+        <h1 id="servicios">Normativa</h1>
+    </section>
+
+    <!-- Herramientas -->
+    <section class="banner banner_herramientas" id="herramientas">
+        <h1 id="servicios">Herramientas</h1>
+    </section>
+
+    <!-- Capacitaciones -->
+    <section class="banner banner_capacitaciones" id="capacitaciones">
+        <h1 id="servicios">Capacitaciones</h1>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <p>© 2024 Circulo Contable S.A.S</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Hecho por Ray Guao Bolaño</p>
+    
+    </section>
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+    
+</body>
+</html>
